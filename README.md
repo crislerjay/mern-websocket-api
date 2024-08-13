@@ -1,4 +1,8 @@
+API URL: https://mern-websocket-api.onrender.com/api/todos
+
+
 for realtime update install socket.io-client on react
+
 ```
 const [todos, setTodos] = useState([]);
 
