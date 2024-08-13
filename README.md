@@ -3,6 +3,11 @@ API URL: https://mern-websocket-api.onrender.com/api/todos
 
 for realtime update install socket.io-client on react
 
+import io from 'socket.io-client';
+import axios from 'axios';
+
+const socket = io('https://mern-websocket-api.onrender.com'); // Replace with your backend URL
+
 ```
 const [todos, setTodos] = useState([]);
 
